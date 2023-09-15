@@ -20,3 +20,7 @@ python -m venv env
 source env/bin/activate
 
 The '/health' route to determine whether the app is up and running correctly
+
+pip to freeze dependencies from env
+pip freeze > requirements.txt
+pip install -r requirements.txt
